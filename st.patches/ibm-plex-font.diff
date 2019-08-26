@@ -1,0 +1,25 @@
+From fe2558fae399cd53147cc8cc3f21507f3e303d19 Mon Sep 17 00:00:00 2001
+From: Coleman McFarland <>
+Date: Mon, 26 Aug 2019 03:06:44 +0000
+Subject: [PATCH] change font to IBM plex mono
+
+---
+ config.def.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/config.def.h b/config.def.h
+index 482901e..99f9f1e 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -5,7 +5,7 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
++static char *font = "IBM Plex Mono:size=12:antialias=true:autohint=true";
+ static int borderpx = 2;
+ 
+ /*
+-- 
+2.23.0
+
